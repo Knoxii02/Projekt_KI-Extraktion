@@ -1,0 +1,171 @@
+[
+  {
+    "Modell": {
+      "value": "DSOX2002A",
+      "source_page": 20,
+      "source_region": "InfiniiVision 2000 X-Series scopes ... 2002A",
+      "confidence": "high"
+    },
+    "Bandbreite": {
+      "value": ["70"],
+      "unit": "MHz",
+      "source_page": 20,
+      "source_region": "2002A ... Bandwidth (-3 dB) ... 70 MHz",
+      "confidence": "high"
+    },
+    "Anzahl Kanäle": {
+      "value": 2,
+      "source_page": 20,
+      "source_region": "2002A ... DSOX Input channels ... 2",
+      "confidence": "high"
+    },
+    "Samplerate": {
+      "value": 2,
+      "unit": "GSa/s",
+      "source_page": 22,
+      "source_region": "Maximum sample rate 1 ... 2 GSa/s half-channel interleaved",
+      "confidence": "high"
+    },
+    "Speichertiefe": {
+      "value": 1,
+      "unit": "Mpts",
+      "source_page": 22,
+      "source_region": "Maximum memory depth ... 1M points per channel (standard)",
+      "confidence": "high"
+    },
+    "Triggerarten": {
+      "value": [
+        "Edge",
+        "Edge then edge",
+        "Pulse width",
+        "Pattern",
+        "Video",
+        "Runt",
+        "Rise/fall time",
+        "Nth edge burst"
+      ],
+      "source_page": 23,
+      "source_region": "Trigger type selections ... Edge ... Edge then edge ... Pulse width ... Pattern ... Video ... Runt Trigger ... Rise/fall time ... Nth edge burst",
+      "confidence": "high"
+    },
+    "Vertikale Auflösung": {
+      "value": 8,
+      "unit": "bit",
+      "source_page": 22,
+      "source_region": "Vertical resolution ... 8 bits",
+      "confidence": "high"
+    },
+    "Anzahl Digitalkanäle": {
+      "value": 0,
+      "source_page": 4,
+      "source_region": "Digital channels ... 8 (MSO models or upgrade)",
+      "confidence": "high"
+    },
+    "Bildschirmgröße": {
+      "value": 21.59,
+      "unit": "cm",
+      "source_page": 22,
+      "source_region": "Display size and type ... 8.5-inch WVGA",
+      "confidence": "high"
+    },
+    "Bildschirmtyp": {
+      "pixel": {
+        "value": [800, 480],
+        "unit": "pixels",
+        "source_page": 25,
+        "source_region": "Resolution ... 800 (H) x 480 ( V) pixel format",
+        "confidence": "high"
+      },
+      "screen_type": {
+        "value": "WVGA color TFT LCD",
+        "source_page": 25,
+        "source_region": "Display ... 8.5-inch WVGA color TFT LCD",
+        "confidence": "high"
+      }
+    },
+    "Schnittstellen": {
+      "relevant_interfaces": {
+        "value": ["USB 2.0 Host", "USB 2.0 Device"],
+        "source_page": 27,
+        "source_region": "One USB 2.0 hi-speed device port ... Two USB 2.0 hi-speed host ports",
+        "confidence": "high"
+      },
+      "optionale_interfaces": {
+        "value": ["GPIB", "LAN", "WVGA video out"],
+        "source_page": 27,
+        "source_region": "Optional ports ... GPIB, LAN, WVGA video out",
+        "confidence": "high"
+      }
+    },
+    "unterstützende serielle Busse": {
+      "value": ["I2C", "SPI", "CAN", "LIN", "RS232", "UART", "RS422", "RS485"],
+      "source_page": 24,
+      "source_region": "I2C (optional) ... SPI (optional) ... CAN (optional) ... LIN (optional) ... RS232/422/485/UART (optional)",
+      "confidence": "high"
+    },
+    "Signalerfassungsrate": {
+      "value": 200000,
+      "unit": "wfms/s",
+      "source_page": 22,
+      "source_region": "Waveform update rate ... 200,000 waveforms per second",
+      "confidence": "high"
+    },
+    "segmentierbarer Speicher": {
+      "value": "Yes",
+      "source_page": 4,
+      "source_region": "Segmented memory ... Yes (standard on DSO model)",
+      "confidence": "high"
+    },
+    "Funktionsgenerator": {
+      "value": "Optional",
+      "source_page": 4,
+      "source_region": "WaveGen 20-MHz function/ arbitrary waveform generator ... Single-channel function only (option)",
+      "confidence": "high"
+    },
+    "DVM": {
+      "value": "Yes",
+      "source_page": 4,
+      "source_region": "Integrated digital voltmeter (standard) ... Yes",
+      "confidence": "high"
+    },
+    "Counter": {
+      "value": "Yes",
+      "source_page": 4,
+      "source_region": "Integrated hardware counter (standard) ... 5-digit frequency counter",
+      "confidence": "high"
+    },
+    "Besonderheiten": {
+      "value": "MegaZoom IV custom ASIC technology, 5 instruments in 1, fully upgradable",
+      "source_page": 6,
+      "source_region": "MegaZoom IV custom ASIC technology ... 5 instruments in 1 ... fully upgradable",
+      "confidence": "high"
+    },
+    "Abmessungen (L x B x H) (mm)": {
+      "value": [142, 381, 204],
+      "unit": "mm",
+      "source_page": 28,
+      "source_region": "Dimensions (W x H x D) ... 381 mm (15 in) x 204 mm (8 in) x 142 mm (5.6 in)",
+      "confidence": "high"
+    },
+    "Gewicht (kg)": {
+      "value": 3.9,
+      "unit": "kg",
+      "source_page": 28,
+      "source_region": "Weight ... Net: 3.9 kg",
+      "confidence": "high"
+    },
+    "Garantie (Jahre)": {
+      "value": null,
+      "unit": null,
+      "source_page": null,
+      "source_region": "Nicht gefunden",
+      "confidence": "low"
+    },
+    "Artikelnummer": {
+      "value": "DSOX2002A",
+      "source_page": 20,
+      "source_region": "InfiniiVision 2000 X-Series scopes ... 2002A ... DSOX ... Input channels 2",
+      "confidence": "high"
+    }
+  }
+]
