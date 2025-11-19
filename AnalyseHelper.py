@@ -12,7 +12,7 @@ import json
 ai_model = "Gemini-3-thinking"
 
 # Select the oscilloscope model to create/load the corresponding Excel file
-oszi_model = "DSOX2002A"
+oszi_model = "MSO54B"
 #--------------------------------------------------------------------------------
 
 

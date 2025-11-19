@@ -1,170 +1,220 @@
 [
   {
     "Modell": {
-      "value": "DSOX2002A",
-      "source_page": 20,
-      "source_region": "InfiniiVision 2000 X-Series scopes ... 2002A",
+      "value": "MSO54B",
+      "source_page": 55,
+      "source_region": "MSO54B",
       "confidence": "high"
     },
     "Bandbreite": {
-      "value": ["70"],
+      "value": ["350", "500", "1000", "2000"],
       "unit": "MHz",
-      "source_page": 20,
-      "source_region": "2002A ... Bandwidth (-3 dB) ... 70 MHz",
+      "source_page": 1,
+      "source_region": "350 MHz, 500 MHz, 1 GHz, 2 GHz (upgradable)",
       "confidence": "high"
     },
     "Anzahl Kanäle": {
-      "value": 2,
-      "source_page": 20,
-      "source_region": "2002A ... DSOX Input channels ... 2",
+      "value": 4,
+      "source_page": 55,
+      "source_region": "MSO54B ... 4",
       "confidence": "high"
     },
     "Samplerate": {
-      "value": 2,
+      "value": 6.25,
       "unit": "GSa/s",
-      "source_page": 22,
-      "source_region": "Maximum sample rate 1 ... 2 GSa/s half-channel interleaved",
+      "source_page": 1,
+      "source_region": "Real-time: 6.25 GS/s",
       "confidence": "high"
     },
     "Speichertiefe": {
-      "value": 1,
+      "value": 62.5,
       "unit": "Mpts",
-      "source_page": 22,
-      "source_region": "Maximum memory depth ... 1M points per channel (standard)",
+      "source_page": 1,
+      "source_region": "62.5 Mpoints standard",
       "confidence": "high"
     },
     "Triggerarten": {
       "value": [
         "Edge",
-        "Edge then edge",
-        "Pulse width",
-        "Pattern",
-        "Video",
+        "Pulse Width",
         "Runt",
-        "Rise/fall time",
-        "Nth edge burst"
+        "Timeout",
+        "Window",
+        "Logic",
+        "Setup & Hold",
+        "Rise/Fall Time",
+        "Parallel Bus",
+        "Sequence",
+        "Visual Trigger",
+        "Video",
+        "RF vs. Time"
       ],
-      "source_page": 23,
-      "source_region": "Trigger type selections ... Edge ... Edge then edge ... Pulse width ... Pattern ... Video ... Runt Trigger ... Rise/fall time ... Nth edge burst",
+      "source_page": 1,
+      "source_region": "Edge, Pulse Width, Runt, Timeout, Window, Logic, Setup & Hold, Rise/Fall Time, Parallel Bus, Sequence, Visual Trigger, Video (optional), RF vs. Time",
       "confidence": "high"
     },
     "Vertikale Auflösung": {
-      "value": 8,
+      "value": 12,
       "unit": "bit",
-      "source_page": 22,
-      "source_region": "Vertical resolution ... 8 bits",
+      "source_page": 1,
+      "source_region": "12-bit ADC",
       "confidence": "high"
     },
     "Anzahl Digitalkanäle": {
-      "value": 0,
-      "source_page": 4,
-      "source_region": "Digital channels ... 8 (MSO models or upgrade)",
+      "value": 32,
+      "source_page": 35,
+      "source_region": "MSO54B ... Maximum digital channels (with optional logic probes) ... 32",
       "confidence": "high"
     },
     "Bildschirmgröße": {
-      "value": 21.59,
+      "value": 39.6,
       "unit": "cm",
-      "source_page": 22,
-      "source_region": "Display size and type ... 8.5-inch WVGA",
+      "source_page": 2,
+      "source_region": "15.6 inch (396 mm)",
       "confidence": "high"
     },
     "Bildschirmtyp": {
       "pixel": {
-        "value": [800, 480],
+        "value": [1920, 1080],
         "unit": "pixels",
-        "source_page": 25,
-        "source_region": "Resolution ... 800 (H) x 480 ( V) pixel format",
+        "source_page": 2,
+        "source_region": "(1,920 x 1,080) resolution",
         "confidence": "high"
       },
       "screen_type": {
-        "value": "WVGA color TFT LCD",
-        "source_page": 25,
-        "source_region": "Display ... 8.5-inch WVGA color TFT LCD",
+        "value": "TFT color, Capacitive (multi-touch) touchscreen",
+        "source_page": 2,
+        "source_region": "TFT color ... Capacitive (multi-touch) touchscreen",
         "confidence": "high"
       }
     },
     "Schnittstellen": {
       "relevant_interfaces": {
-        "value": ["USB 2.0 Host", "USB 2.0 Device"],
-        "source_page": 27,
-        "source_region": "One USB 2.0 hi-speed device port ... Two USB 2.0 hi-speed host ports",
+        "value": [
+          "USB Host",
+          "USB Device",
+          "LAN",
+          "DisplayPort",
+          "DVI-D",
+          "VGA"
+        ],
+        "source_page": 2,
+        "source_region": "USB Host (7 ports), USB 3.0 Device (1 port), LAN (10/100/1000 Base-T Ethernet; LXI Compliant), DisplayPort, DVI-D, VGA",
         "confidence": "high"
       },
       "optionale_interfaces": {
-        "value": ["GPIB", "LAN", "WVGA video out"],
-        "source_page": 27,
-        "source_region": "Optional ports ... GPIB, LAN, WVGA video out",
-        "confidence": "high"
+        "value": null,
+        "source_page": null,
+        "source_region": "Nicht gefunden",
+        "confidence": "low"
       }
     },
     "unterstützende serielle Busse": {
-      "value": ["I2C", "SPI", "CAN", "LIN", "RS232", "UART", "RS422", "RS485"],
-      "source_page": 24,
-      "source_region": "I2C (optional) ... SPI (optional) ... CAN (optional) ... LIN (optional) ... RS232/422/485/UART (optional)",
+      "value": [
+        "I2C",
+        "SPI",
+        "eSPI",
+        "I3C",
+        "RS-232",
+        "RS-422",
+        "RS-485",
+        "UART",
+        "SPMI",
+        "SMBus",
+        "CAN",
+        "CAN FD",
+        "CAN XL",
+        "LIN",
+        "FlexRay",
+        "SENT",
+        "PSI5",
+        "CXPI",
+        "Automotive Ethernet",
+        "MIPI C-PHY",
+        "MIPI D-PHY",
+        "USB 2.0",
+        "eUSB2.0",
+        "Ethernet",
+        "EtherCAT",
+        "Audio",
+        "MIL-STD-1553",
+        "ARINC 429",
+        "Spacewire",
+        "8B/10B",
+        "NRZ",
+        "Manchester",
+        "SVID",
+        "SDLC",
+        "1-Wire",
+        "MDIO",
+        "NFC"
+      ],
+      "source_page": 1,
+      "source_region": "I2C, SPI, eSPI, I3C, RS-232/422/485/UART, SPMI, SMBus, CAN, CAN FD, CAN XL, LIN, FlexRay, SENT, PSI5, CXPI, Automotive Ethernet, MIPI C-PHY, MIPI D-PHY, USB 2.0, eUSB2.0, Ethernet, EtherCAT, Audio, MIL-STD-1553, ARINC 429, Spacewire, 8B/10B, NRZ, Manchester, SVID, SDLC, 1-Wire, MDIO, and NFC",
       "confidence": "high"
     },
     "Signalerfassungsrate": {
-      "value": 200000,
+      "value": 500000,
       "unit": "wfms/s",
-      "source_page": 22,
-      "source_region": "Waveform update rate ... 200,000 waveforms per second",
+      "source_page": 1,
+      "source_region": ">500,000 waveforms/s",
       "confidence": "high"
     },
     "segmentierbarer Speicher": {
       "value": "Yes",
-      "source_page": 4,
-      "source_region": "Segmented memory ... Yes (standard on DSO model)",
+      "source_page": 1,
+      "source_region": "FastFrame™: Segmented memory acquisition mode",
       "confidence": "high"
     },
     "Funktionsgenerator": {
       "value": "Optional",
-      "source_page": 4,
-      "source_region": "WaveGen 20-MHz function/ arbitrary waveform generator ... Single-channel function only (option)",
+      "source_page": 2,
+      "source_region": "Arbitrary/Function Generator (optional and upgradable)",
       "confidence": "high"
     },
     "DVM": {
       "value": "Yes",
-      "source_page": 4,
-      "source_region": "Integrated digital voltmeter (standard) ... Yes",
+      "source_page": 2,
+      "source_region": "Digital voltmeter (free with product registration)",
       "confidence": "high"
     },
     "Counter": {
       "value": "Yes",
-      "source_page": 4,
-      "source_region": "Integrated hardware counter (standard) ... 5-digit frequency counter",
+      "source_page": 2,
+      "source_region": "Trigger frequency counter (free with product registration)",
       "confidence": "high"
     },
     "Besonderheiten": {
-      "value": "MegaZoom IV custom ASIC technology, 5 instruments in 1, fully upgradable",
-      "source_page": 6,
-      "source_region": "MegaZoom IV custom ASIC technology ... 5 instruments in 1 ... fully upgradable",
+      "value": "FlexChannel® inputs, Spectrum View, e*Scope, 12-bit ADC",
+      "source_page": 1,
+      "source_region": "FlexChannel® inputs ... Spectrum View ... 12-bit ADC",
       "confidence": "high"
     },
     "Abmessungen (L x B x H) (mm)": {
-      "value": [142, 381, 204],
+      "value": [204, 454, 309],
       "unit": "mm",
-      "source_page": 28,
-      "source_region": "Dimensions (W x H x D) ... 381 mm (15 in) x 204 mm (8 in) x 142 mm (5.6 in)",
+      "source_page": 2,
+      "source_region": "12.2 in (309 mm) H x 17.9 in (454 mm) W x 8.0 in (204 mm) D",
       "confidence": "high"
     },
     "Gewicht (kg)": {
-      "value": 3.9,
+      "value": 11.4,
       "unit": "kg",
-      "source_page": 28,
-      "source_region": "Weight ... Net: 3.9 kg",
+      "source_page": 2,
+      "source_region": "Weight: 25 lbs. (11.4 kg)",
       "confidence": "high"
     },
     "Garantie (Jahre)": {
-      "value": null,
-      "unit": null,
-      "source_page": null,
-      "source_region": "Nicht gefunden",
-      "confidence": "low"
+      "value": 1,
+      "unit": "Jahre",
+      "source_page": 2,
+      "source_region": "1 year standard",
+      "confidence": "high"
     },
     "Artikelnummer": {
-      "value": "DSOX2002A",
-      "source_page": 20,
-      "source_region": "InfiniiVision 2000 X-Series scopes ... 2002A ... DSOX ... Input channels 2",
+      "value": "MSO54B",
+      "source_page": 55,
+      "source_region": "MSO54B",
       "confidence": "high"
     }
   }
