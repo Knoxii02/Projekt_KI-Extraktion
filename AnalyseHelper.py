@@ -9,6 +9,8 @@ import json
 import pyperclip
 from Prompt import getPrompt
 
+# pip install pyperclip openpyxl
+
 #--------------------------------------------------------------------------------
 # Select one of the AI models from below (ai_models list)
 ai_model = "Gemini-3-thinking"
