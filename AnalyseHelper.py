@@ -6,17 +6,30 @@ import os
 import subprocess
 import time
 import json
+import pyperclip
+from Prompt import getPrompt
 
 #--------------------------------------------------------------------------------
 # Select one of the AI models from below (ai_models list)
 ai_model = "Gemini-3-thinking"
 
 # Select the oscilloscope model to create/load the corresponding Excel file
-oszi_model = "MSO54B"
+oszi_model = "DSOX2002A"
 #--------------------------------------------------------------------------------
 
 
 # Dont change anything below this line
+
+prompt = getPrompt(oszi_model)
+print(f"Prompt for {oszi_model} copied")
+print("\n----------------")
+input("Press Enter after pasting the JSON response...")
+print("----------------")
+json_string = pyperclip.paste()
+print("Reading JSON data from clipboard...")
+json_data = json.loads(json_string)
+
+
 ai_models = [
     "Gemini-3-thinking",
     "Deepseek",
@@ -66,8 +79,8 @@ thin_border = Border(
     bottom=Side(style='thin')
 )
 
-with open('json_data.json', 'r', encoding='utf-8') as f:
-    json_data = json.load(f)
+#with open('json_data.json', 'r', encoding='utf-8') as f:
+#    json_data = json.load(f)
 
 json_obj = json_data[0]
 minimized_values = []

@@ -2,13 +2,12 @@ import pyperclip
 
 
 
-model = "DSOX2002A"
-
+#model = "DSOX2002A"
 
 
 
 def getPrompt(model: str) -> str:
-    return f"""Du bist ein Fachexperte für die Analyse von Oszilloskop-Datenblättern und die Extraktion technischer Daten.
+    pr =  f"""Du bist ein Fachexperte für die Analyse von Oszilloskop-Datenblättern und die Extraktion technischer Daten.
 
     AUFGABE:
     Analysiere das bereitgestellte PDF-Dokument. Deine Aufgabe ist es, die technischen Spezifikationen **ausschließlich** für das Modell **{model}** zu extrahieren.
@@ -301,9 +300,5 @@ WICHTIG - UMRECHNUNG DER REIHENFOLGE:      Verschiedene Konventionen in Datenbl�
                 }
             }
         }"""
-        
-pr = getPrompt(model)
-
-
-pyperclip.copy(pr)
-print(f"Copied prompt for     {model}      !")
+    pyperclip.copy(pr)
+    return pr
