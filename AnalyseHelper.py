@@ -23,8 +23,8 @@ oszi_model = "DSOX2002A"
 prompt = getPrompt(oszi_model)
 print(f"Prompt for {oszi_model} copied")
 print("\n----------------")
-input("Press Enter after pasting the JSON response...")
-print("----------------")
+input("Press Enter after pasting the JSON response...\n----------------")
+
 json_string = pyperclip.paste()
 print("Reading JSON data from clipboard...")
 json_data = json.loads(json_string)
