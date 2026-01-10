@@ -18,7 +18,7 @@ def getPrompt(model: str) -> str:
 WICHTIGE SCHLAGWORTE UND KONTEXT FÜR DIE ERKENNUNG UND ANALYSE!
 
 - Modell: Ist im Prompt angegeben
-- Bandbreite: Suche nach "Bandbreite", "bandwidth", "MHz", "GHz", oft in Tabellen oder technischen Daten     
+- Bandbreite: Suche nach "Bandbreite", "bandwidth", "MHz", "GHz"; oft in Tabellen oder technischen Daten     
 - Anzahl Kanäle: Suche nach "Kanäle", "channels", "2-Kanal", "4-Kanal", oft im Titel oder Überschrift        
 - Samplerate: Suche nach "Abtastrate", "Sample rate", "Sa/s", "GSa/s", "MSa/s"
 - Speichertiefe: Suche nach "Speicher", "memory depth", "Mpts", "kpts", "Sample"

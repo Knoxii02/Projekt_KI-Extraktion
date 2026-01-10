@@ -5,8 +5,6 @@ def sort_list(input_list: str) -> str:
     return ', '.join(items)
 #--------------------------------------------------------------------------------
 
-liste = "Edge, Pulse width, Glitch, Runt, Timeout, Pattern/State, Setup/hold, Window, Protocol, Generic Protocol, Burst, Nth Edge, OR'd Edges, InfiniiScan Zone, Measurement limit, Non-monotonic edge"
-
-
+liste = "I²C, UART, RS-232, SPI, CAN, LIN"
 sorted_liste = sort_list(liste)
 print(sorted_liste)

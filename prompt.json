@@ -1,0 +1,343 @@
+{
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "Modell": {
+        "type": "object",
+        "properties": {
+          "value": { "type": ["string", "null"] },
+          "source_page": { "type": ["integer", "null"] },
+          "source_region": { "type": ["string", "null"] },
+          "confidence": {
+            "type": ["string", "null"],
+            "enum": ["high", "medium", "low", "null"]
+          }
+        }
+      },
+      "Bandbreite": {
+        "type": "object",
+        "properties": {
+          "value": {
+            "type": ["array", "null"],
+            "items": { "type": "integer" }
+          },
+          "unit": { "type": ["string", "null"], "enum": ["MHz", "null"] },
+          "source_page": { "type": ["integer", "null"] },
+          "source_region": { "type": ["string", "null"] },
+          "confidence": {
+            "type": ["string", "null"],
+            "enum": ["high", "medium", "low", "null"]
+          }
+        }
+      },
+      "Anzahl Kanäle": {
+        "type": "object",
+        "properties": {
+          "value": { "type": ["integer", "null"] },
+          "source_page": { "type": ["integer", "null"] },
+          "source_region": { "type": ["string", "null"] },
+          "confidence": {
+            "type": ["string", "null"],
+            "enum": ["high", "medium", "low", "null"]
+          }
+        }
+      },
+      "Samplerate": {
+        "type": "object",
+        "properties": {
+          "value": { "type": ["number", "null"] },
+          "unit": { "type": ["string", "null"], "enum": ["GSa/s", "null"] },
+          "source_page": { "type": ["integer", "null"] },
+          "source_region": { "type": ["string", "null"] },
+          "confidence": {
+            "type": ["string", "null"],
+            "enum": ["high", "medium", "low", "null"]
+          }
+        }
+      },
+      "Speichertiefe": {
+        "type": "object",
+        "properties": {
+          "value": { "type": ["number", "null"] },
+          "unit": { "type": ["string", "null"], "enum": ["Mpts", "null"] },
+          "source_page": { "type": ["integer", "null"] },
+          "source_region": { "type": ["string", "null"] },
+          "confidence": {
+            "type": ["string", "null"],
+            "enum": ["high", "medium", "low", "null"]
+          }
+        }
+      },
+      "Triggerarten": {
+        "type": "object",
+        "properties": {
+          "value": { "type": ["array", "null"], "items": { "type": "string" } },
+          "source_page": { "type": ["integer", "null"] },
+          "source_region": { "type": ["string", "null"] },
+          "confidence": {
+            "type": ["string", "null"],
+            "enum": ["high", "medium", "low", "null"]
+          }
+        }
+      },
+      "Vertikale Auflösung": {
+        "type": "object",
+        "properties": {
+          "value": { "type": ["number", "null"] },
+          "unit": { "type": ["string", "null"], "enum": ["bit", "null"] },
+          "source_page": { "type": ["integer", "null"] },
+          "source_region": { "type": ["string", "null"] },
+          "confidence": {
+            "type": ["string", "null"],
+            "enum": ["high", "medium", "low", "null"]
+          }
+        }
+      },
+      "Anzahl Digitalkanäle": {
+        "type": "object",
+        "properties": {
+          "value": { "type": ["integer", "null"] },
+          "source_page": { "type": ["integer", "null"] },
+          "source_region": { "type": ["string", "null"] },
+          "confidence": {
+            "type": ["string", "null"],
+            "enum": ["high", "medium", "low", "null"]
+          }
+        }
+      },
+      "Bildschirmgröße": {
+        "type": "object",
+        "properties": {
+          "value": { "type": ["number", "null"] },
+          "unit": { "type": ["string", "null"], "enum": ["cm", "null"] },
+          "source_page": { "type": ["integer", "null"] },
+          "source_region": { "type": ["string", "null"] },
+          "confidence": {
+            "type": ["string", "null"],
+            "enum": ["high", "medium", "low", "null"]
+          }
+        }
+      },
+      "Bildschirmtyp": {
+        "type": "object",
+        "properties": {
+          "pixel": {
+            "type": "object",
+            "properties": {
+              "value": {
+                "type": ["array", "null"],
+                "items": { "type": "integer" }
+              },
+              "unit": {
+                "type": ["string", "null"],
+                "enum": ["pixels", "null"]
+              },
+              "source_page": { "type": ["integer", "null"] },
+              "source_region": { "type": ["string", "null"] },
+              "confidence": {
+                "type": ["string", "null"],
+                "enum": ["high", "medium", "low", "null"]
+              }
+            }
+          },
+          "screen_type": {
+            "type": "object",
+            "properties": {
+              "value": { "type": ["string", "null"] },
+              "source_page": { "type": ["integer", "null"] },
+              "source_region": { "type": ["string", "null"] },
+              "confidence": {
+                "type": ["string", "null"],
+                "enum": ["high", "medium", "low", "null"]
+              }
+            }
+          }
+        }
+      },
+      "Schnittstellen": {
+        "type": "object",
+        "properties": {
+          "relevant_interfaces": {
+            "type": "object",
+            "properties": {
+              "value": {
+                "type": ["array", "null"],
+                "items": { "type": "string" }
+              },
+              "source_page": { "type": ["integer", "null"] },
+              "source_region": { "type": ["string", "null"] },
+              "confidence": {
+                "type": ["string", "null"],
+                "enum": ["high", "medium", "low", "null"]
+              }
+            }
+          },
+          "optionale_interfaces": {
+            "type": "object",
+            "properties": {
+              "value": {
+                "type": ["array", "null"],
+                "items": { "type": "string" }
+              },
+              "source_page": { "type": ["integer", "null"] },
+              "source_region": { "type": ["string", "null"] },
+              "confidence": {
+                "type": ["string", "null"],
+                "enum": ["high", "medium", "low", "null"]
+              }
+            }
+          }
+        }
+      },
+      "unterstützende serielle Busse": {
+        "type": "object",
+        "properties": {
+          "value": { "type": ["array", "null"], "items": { "type": "string" } },
+          "source_page": { "type": ["integer", "null"] },
+          "source_region": { "type": ["string", "null"] },
+          "confidence": {
+            "type": ["string", "null"],
+            "enum": ["high", "medium", "low", "null"]
+          }
+        }
+      },
+      "Signalerfassungsrate": {
+        "type": "object",
+        "properties": {
+          "value": { "type": ["number", "null"] },
+          "unit": { "type": ["string", "null"], "enum": ["wfms/s", "null"] },
+          "source_page": { "type": ["integer", "null"] },
+          "source_region": { "type": ["string", "null"] },
+          "confidence": {
+            "type": ["string", "null"],
+            "enum": ["high", "medium", "low", "null"]
+          }
+        }
+      },
+      "segmentierbarer Speicher": {
+        "type": "object",
+        "properties": {
+          "value": {
+            "type": ["string", "null"],
+            "enum": ["Yes", "No", "Optional", "null"]
+          },
+          "source_page": { "type": ["integer", "null"] },
+          "source_region": { "type": ["string", "null"] },
+          "confidence": {
+            "type": ["string", "null"],
+            "enum": ["high", "medium", "low", "null"]
+          }
+        }
+      },
+      "Funktionsgenerator": {
+        "type": "object",
+        "properties": {
+          "value": {
+            "type": ["string", "null"],
+            "enum": ["Yes", "No", "Optional", "null"]
+          },
+          "source_page": { "type": ["integer", "null"] },
+          "source_region": { "type": ["string", "null"] },
+          "confidence": {
+            "type": ["string", "null"],
+            "enum": ["high", "medium", "low", "null"]
+          }
+        }
+      },
+      "DVM": {
+        "type": "object",
+        "properties": {
+          "value": {
+            "type": ["string", "null"],
+            "enum": ["Yes", "No", "Optional", "null"]
+          },
+          "source_page": { "type": ["integer", "null"] },
+          "source_region": { "type": ["string", "null"] },
+          "confidence": {
+            "type": ["string", "null"],
+            "enum": ["high", "medium", "low", "null"]
+          }
+        }
+      },
+      "Counter": {
+        "type": "object",
+        "properties": {
+          "value": {
+            "type": ["string", "null"],
+            "enum": ["Yes", "No", "Optional", "null"]
+          },
+          "source_page": { "type": ["integer", "null"] },
+          "source_region": { "type": ["string", "null"] },
+          "confidence": {
+            "type": ["string", "null"],
+            "enum": ["high", "medium", "low", "null"]
+          }
+        }
+      },
+      "Besonderheiten": {
+        "type": "object",
+        "properties": {
+          "value": { "type": ["string", "null"] },
+          "source_page": { "type": ["integer", "null"] },
+          "source_region": { "type": ["string", "null"] },
+          "confidence": {
+            "type": ["string", "null"],
+            "enum": ["high", "medium", "low", "null"]
+          }
+        }
+      },
+      "Abmessungen (L x B x H) (mm)": {
+        "type": "object",
+        "properties": {
+          "value": { "type": ["array", "null"], "items": { "type": "number" } },
+          "unit": { "type": "string", "enum": ["mm"] },
+          "source_page": { "type": ["integer", "null"] },
+          "source_region": { "type": ["string", "null"] },
+          "confidence": {
+            "type": ["string", "null"],
+            "enum": ["high", "medium", "low", "null"]
+          }
+        }
+      },
+      "Gewicht (kg)": {
+        "type": "object",
+        "properties": {
+          "value": { "type": ["number", "null"] },
+          "unit": { "type": ["string", "null"], "enum": ["kg", "null"] },
+          "source_page": { "type": ["integer", "null"] },
+          "source_region": { "type": ["string", "null"] },
+          "confidence": {
+            "type": ["string", "null"],
+            "enum": ["high", "medium", "low", "null"]
+          }
+        }
+      },
+      "Garantie (Jahre)": {
+        "type": "object",
+        "properties": {
+          "value": { "type": ["number", "null"] },
+          "unit": { "type": ["string", "null"], "enum": ["Jahre", "null"] },
+          "source_page": { "type": ["integer", "null"] },
+          "source_region": { "type": ["string", "null"] },
+          "confidence": {
+            "type": ["string", "null"],
+            "enum": ["high", "medium", "low", "null"]
+          }
+        }
+      },
+      "Artikelnummer": {
+        "type": "object",
+        "properties": {
+          "value": { "type": ["string", "null"] },
+          "source_page": { "type": ["integer", "null"] },
+          "source_region": { "type": ["string", "null"] },
+          "confidence": {
+            "type": ["string", "null"],
+            "enum": ["high", "medium", "low", "null"]
+          }
+        }
+      }
+    }
+  }
+}

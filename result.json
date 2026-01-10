@@ -1,0 +1,167 @@
+{
+  "Modell": {
+    "value": "DSOX1202A",
+    "source_page": 3,
+    "source_region": "DSOX1202A\n2 channels",
+    "confidence": "high"
+  },
+  "Bandbreite": {
+    "value": ["70", "100", "200"],
+    "unit": "MHz",
+    "source_page": 3,
+    "source_region": "70 MHz (base bandwidth)\n100 MHz (D1202BW1A)\n200 MHz (D1202BW2A)",
+    "confidence": "high"
+  },
+  "Anzahl Kanäle": {
+    "value": 2,
+    "source_page": 3,
+    "source_region": "DSOX1202A\n2 channels",
+    "confidence": "high"
+  },
+  "Samplerate": {
+    "value": 2.0,
+    "unit": "GSa/s",
+    "source_page": 3,
+    "source_region": "2 GSa/s (one- or two-channel operation)",
+    "confidence": "high"
+  },
+  "Speichertiefe": {
+    "value": 2.0,
+    "unit": "Mpts",
+    "source_page": 3,
+    "source_region": "2 M points (one- or two-channel operation)",
+    "confidence": "high"
+  },
+  "Triggerarten": {
+    "value": [
+      "Edge",
+      "Pattern/state",
+      "Pulse width",
+      "Setup and hold",
+      "Rise/fall time",
+      "Video"
+    ],
+    "source_page": 15,
+    "source_region": "Edge... Pattern/state... Pulse width... Setup and hold... Rise/fall time... Video",
+    "confidence": "high"
+  },
+  "Vertikale Auflösung": {
+    "value": 8.0,
+    "unit": "bit",
+    "source_page": 12,
+    "source_region": "Vertical resolution\n8 bits",
+    "confidence": "high"
+  },
+  "Anzahl Digitalkanäle": {
+    "value": null,
+    "source_page": null,
+    "source_region": "Nicht gefunden",
+    "confidence": "low"
+  },
+  "Bildschirmgröße": {
+    "value": 17.78,
+    "unit": "cm",
+    "source_page": 3,
+    "source_region": "7-inch TFT LCD WVGA",
+    "confidence": "high"
+  },
+  "Bildschirmtyp": {
+    "pixel": {
+      "value": null,
+      "unit": null,
+      "source_page": 3,
+      "source_region": "7-inch TFT LCD WVGA",
+      "confidence": "low"
+    },
+    "screen_type": {
+      "value": "TFT LCD WVGA",
+      "source_page": 3,
+      "source_region": "7-inch TFT LCD WVGA",
+      "confidence": "high"
+    }
+  },
+  "Schnittstellen": {
+    "relevant_interfaces": {
+      "value": ["USB 2.0 (host and device)", "LAN"],
+      "source_page": 3,
+      "source_region": "USB 2.0 (host and device), LAN",
+      "confidence": "high"
+    },
+    "optionale_interfaces": {
+      "value": null,
+      "source_page": null,
+      "source_region": "Nicht gefunden",
+      "confidence": "low"
+    }
+  },
+  "unterstützende serielle Busse": {
+    "value": ["I2C", "SPI", "UART", "RS-232", "CAN", "LIN"],
+    "source_page": 3,
+    "source_region": "Standard: I2C, SPI, UART/RS-232, CAN, LIN",
+    "confidence": "high"
+  },
+  "Signalerfassungsrate": {
+    "value": 200000.0,
+    "unit": "wfms/s",
+    "source_page": 3,
+    "source_region": "200,000 waveforms per second",
+    "confidence": "high"
+  },
+  "segmentierbarer Speicher": {
+    "value": "Yes",
+    "source_page": 3,
+    "source_region": "Segmented memory\nStandard",
+    "confidence": "high"
+  },
+  "Funktionsgenerator": {
+    "value": "No",
+    "source_page": 3,
+    "source_region": "WaveGen\nNot available",
+    "confidence": "high"
+  },
+  "DVM": {
+    "value": "Yes",
+    "source_page": 3,
+    "source_region": "Integrated digital voltmeter\nStandard",
+    "confidence": "high"
+  },
+  "Counter": {
+    "value": "Yes",
+    "source_page": 3,
+    "source_region": "Frequency counter\nStandard",
+    "confidence": "high"
+  },
+  "Besonderheiten": {
+    "value": "MegaZoom IV ASIC, Mask/limit testing, 6-in-1 instrument integration",
+    "source_page": 5,
+    "source_region": "MegaZoom IV ASIC... Mask/limit testing... 6-in-1 instrument integration",
+    "confidence": "high"
+  },
+  "Abmessungen (L x B x H) (mm)": {
+    "value": [130.0, 314.0, 165.0],
+    "unit": "mm",
+    "source_page": 20,
+    "source_region": "314 mm (12.4 in) x 165 mm (6.5 in) x 130 mm (5.1 in)",
+    "confidence": "high"
+  },
+  "Gewicht (kg)": {
+    "value": 3.23,
+    "unit": "kg",
+    "source_page": 20,
+    "source_region": "Net: 3.23 kg",
+    "confidence": "high"
+  },
+  "Garantie (Jahre)": {
+    "value": 3.0,
+    "unit": "Jahre",
+    "source_page": 22,
+    "source_region": "Standard 3-year warranty",
+    "confidence": "high"
+  },
+  "Artikelnummer": {
+    "value": "DSOX1202A",
+    "source_page": 3,
+    "source_region": "DSOX1202A",
+    "confidence": "high"
+  }
+}
